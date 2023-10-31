@@ -1,0 +1,20 @@
+[
+  {
+    "id": "DummyTable",
+    "title": "Dummy Table",
+    "order": 1,
+    "path": "tabs/DummyTable.jsx"
+  },
+  {
+    "id": "DummyChart",
+    "title": "Dummy Chart",
+    "order": 2,
+    "path": "tabs/DummyChart.jsx"
+  },
+  {
+    "id": "DummyList",
+    "title": "Dummy List",
+    "order": 0,
+    "path": "tabs/DummyList.jsx"
+  }
+]
