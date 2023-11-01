@@ -12,9 +12,9 @@ const DummyChart = React.lazy(() => import("./tabs/DummyChart.jsx"));
 const DummyTable = React.lazy(() => import("./tabs/DummyTable.jsx"));
 
 const componentsMap = {
-  "tabs/DummyList.jsx": DummyList,
-  "tabs/DummyChart.jsx": DummyChart,
-  "tabs/DummyTable.jsx": DummyTable,
+  "./tabs/DummyList.jsx": DummyList,
+  "./tabs/DummyChart.jsx": DummyChart,
+  "./tabs/DummyTable.jsx": DummyTable,
 };
 
 const Nav = styled.nav`
