@@ -52,7 +52,7 @@ function App() {
   const [tabs, setTabs] = useState([]);
 
   useEffect(() => {
-    fetch("/src/tabs.json")
+    fetch("./src/tabs.json")
       .then((response) => response.json())
       .then((data) => {
         setTabs(data.sort((a, b) => a.order - b.order));
